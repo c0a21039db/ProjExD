@@ -1,7 +1,7 @@
 import tkinter as tk
 import tkinter.messagebox as tkm
 
-#def button_click(event):
+# def button_click(event):
     #btn = event.widget
     #txt = btn["text"]
     #tkm.showinfo(txt, f"[{txt}]ボタンが押されたぞ")
@@ -37,7 +37,7 @@ def button_click(event):
     elif num == "aldel":
         entry.delete(0, tk.END)
     elif num == "del":
-        entry.delete(len(entry.get())-1, tk.END)
+        entry.delete(len(entry.get())-1, tk.END)#1文字ずつの削除
     else: # 「=」以外のボタン字
         #tkm.showinfo("", f"{num}ボタンがクリックされました")
         # 練習６
