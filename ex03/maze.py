@@ -9,7 +9,10 @@ def key_up(event):
     global key
     key = ""
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> add_func
 def main_proc(): #こうかとんの移動
     global cx, cy, mx, my, canvas, kiretori
     # cx, cy = mx*100 + 50, my*100 + 50 #こうかとんの初期位置
