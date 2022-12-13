@@ -43,7 +43,6 @@ def main():
     bomb_rct.centery = random.randint(0, scrn_rct.height)
     scrn_sfc.blit(bomb_sfc, bomb_rct)
     vx, vy = +1, +1
-    print(vx, vy)
 
     # 練習２
     while True:
