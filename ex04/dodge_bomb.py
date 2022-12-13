@@ -84,7 +84,7 @@ def main():
         vy *= tate *1.0002
         print(vx, vy)
 
-        #練習8
+        # 練習8
         if tori_rct.colliderect(bomb_rct):#爆弾に当たると画像が変わる(追加)
             next_rext = tori_rct.center
             tori_sfc = pg.image.load("fig/7.png")#キレるこうかとん
