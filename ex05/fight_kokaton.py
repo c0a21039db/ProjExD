@@ -44,6 +44,7 @@ class Bird:
                 self.rct.centerx -= delta[0]
                 self.rct.centery -= delta[1]
         self.blit(scr)
+        
 
 class Chimp: #チンパンジー(敵)の追加
     """An alien space ship. That slowly moves down the screen."""
