@@ -136,7 +136,6 @@ def main():
             kkt.update(scr)
             pg.display.update()
             pg.time.wait(1000)
-                
             return
 
         if kkt.rct.colliderect(cmp.rct):
